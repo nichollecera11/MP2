@@ -1,0 +1,73 @@
+.rotating-text {
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 700% !important;
+    font-family: Air America !important;
+    font-weight: 900 !important;
+    letter-spacing: 10px !important;
+    color: gold !important;
+    height: 120px !important;
+}
+
+.home-section {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 89.6vh !important;
+    background-image: url('https://media.giphy.com/media/l0HlKQPTHOGNUPTZm/giphy.gif') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-top: -47px !important;
+
+}
+
+.about-section {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 89vh !important;
+    background-color: #673AB7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673AB7, #FFFFFF); /* Light gradient from deep purple to white */
+    background-size: cover !important;
+    margin-top: -43px !important;
+
+}
+.divider-section {
+    background-color: goldenrod !important;
+    width: 100px !important;
+    height: 2px !important;
+    margin-bottom: 50px !important;
+
+}
+.about-typography {
+    font-family: Air America !important;
+    font-size: 50px !important;
+    font-weight: 50px !important;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000 !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
