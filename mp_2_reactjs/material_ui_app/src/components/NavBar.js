@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom';
 
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact', 'Reservation'];
+const navItems = ['Home', 'About', 'Contact', 'Reservation', 'Register', 'Login',];
 
 function NavBar(props) {
   const { window } = props;
@@ -31,7 +31,7 @@ function NavBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI - DRAWER
+      RESERVA® Mobile
       </Typography>
       <Divider />
       <List>
@@ -65,9 +65,9 @@ function NavBar(props) {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }} style={{ fontWeight: 'bold', fontFamily: 'Roboto', color: 'black' }}
           >
-            RESERVA
+            RESERVA®
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (

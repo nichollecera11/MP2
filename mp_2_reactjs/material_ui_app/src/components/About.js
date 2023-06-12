@@ -8,23 +8,23 @@ function About() {
   return (
     <Box className='about-section'>
       <Container>
-      <RotatingText className="rotating-text"
+      <RotatingText className="rotating-text2"
         text="Hassle?"
       stagger={0.1}
         timing={0.5}>
       </RotatingText>
-        <ReactRotatingText style={{ fontFamily: 'Air America', fontSize: '40px', letterSpacing: '5px' }}
+        <ReactRotatingText style={{ textAlign: 'center', fontFamily: 'Air America', fontSize: '40px', letterSpacing: '5px'}}
           items=
           {[' Drive and Park ', 'Easy', 'with Reserva']} />
         <Divider className='divider-section'></Divider>
+
         <Typography style={{ fontSize: '30px', fontFamily: 'Roboto', fontWeight: 'bold', letterSpacing: '2px' }}>
           Having a hard time looking for parking spot around the metro? <Divider></Divider>
-          no worries
-           Reserva got your back
+          No worries, Reserva got your back.
         </Typography>
       </Container>
     </Box>
   )
 }
 
-export default About
+export default About;
