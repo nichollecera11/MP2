@@ -1,3 +1,8 @@
+.navBartext{
+  font-family: Roboto !important;
+
+}
+
 .rotating-text {
 
   display: flex !important;
@@ -45,13 +50,26 @@
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    height:89vh !important;
+    height:89.5vh !important;
     background-image: url('https://media.giphy.com/media/l0HlKQPTHOGNUPTZm/giphy.gif') !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    margin-top: -45.7px !important;
+    margin-top: -46px !important;
 
+}
+
+.contact-section {
+  display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100%vh !important;
+    background-color: #673AB7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
+    background-size: cover !important;
+    margin-top: -46px !important;
 }
 
 .about-section {
@@ -60,14 +78,15 @@
     justify-content: center !important;
     align-items: center !important;
     width: 100% !important;
-    height: 89vh !important;
+    height: 89.5vh !important;
     background-color: #673AB7; /* Deep purple background color */
-    background-image: linear-gradient(to bottom, #673AB7, #FFFFFF); /* Light gradient from deep purple to white */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
     margin-top: -46px !important;
 
 }
 .divider-section {
+    display: flex !important;
     background-color: goldenrod !important;
     width: 100px !important;
     height: 2px !important;
@@ -75,6 +94,29 @@
     justify-content: center !important;
     align-items: center !important;
 
+
+}
+
+.contact-divider {
+  display: flex !important;
+    background-color: goldenrod !important;
+    width: 100% !important;
+    height: 2px !important;
+    margin-bottom: 50px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+
+}
+
+.reservation-divider {
+  display: flex !important;
+    background-color: goldenrod !important;
+    width: 100% !important;
+    height: 2px !important;
+    margin-bottom: 30px !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 .about-typography {
     font-family: Air America !important;
@@ -109,7 +151,7 @@
     width: 100% !important;
     height: 100%vh !important;
     background-color: #673AB7; /* Deep purple background color */
-    background-image: linear-gradient(to bottom, #673AB7, #050000); /* Light gradient from deep purple to white */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
     background-size: cover !important;
     margin-top: -46px !important;
     
@@ -137,4 +179,12 @@
     grid-template-columns: repeat(3, 1fr) !important;
   }
 
-  
+  /* Map CSS */
+.map-container {
+  display: flex !important;
+  width: 100% !important;
+  height: 100vh !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+}

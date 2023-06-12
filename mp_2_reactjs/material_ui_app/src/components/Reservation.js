@@ -20,7 +20,9 @@ function Reservation() {
         text="Reservation"
       stagger={0.1}
         timing={0.5}>
-        </RotatingText>
+          </RotatingText>
+          <Divider className='reservation-divider'>
+          </Divider>
         <ReactRotatingText className='reactRotatingText'
           items=
             {[' Choose your ', 'Date', 'and Slot']} />
