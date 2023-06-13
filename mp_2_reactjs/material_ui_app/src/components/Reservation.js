@@ -6,6 +6,7 @@ import SpacingGrid from "./SpacingGrid.js";
 import ReactRotatingText from "react-rotating-text";
 import { RotatingText } from "rotating-text";
 import Modal from "./Modal.js";
+import TableApp from "./TableApp.js";
 // import shadows from '@mui/material/styles/shadows.js';
 
 function Reservation() {
@@ -29,6 +30,7 @@ function Reservation() {
           items={[" Choose your ", "Date", "and Slot"]}
         />
       </Container>
+      <TableApp />
       <Container>{/* <Modal/> */}</Container>
       <Container>
         <Calendar />

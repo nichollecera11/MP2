@@ -101,5 +101,3 @@ export default function TableApp() {
     </div>
   );
 }
-
-// export default tableApp;
