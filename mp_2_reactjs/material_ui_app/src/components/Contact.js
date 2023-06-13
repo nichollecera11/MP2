@@ -26,8 +26,6 @@ export default function Contact() {
       stagger={0.1}
             timing={0.5}>
           </RotatingText>
-          <Divider className='contact-divider'>
-          </Divider>
         </Box>
         <Container>
       <GoogleMap

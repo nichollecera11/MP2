@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+../node_modules/
+../../node_modules/
+../../mp_2/
 /.pnp
 .pnp.js
 
