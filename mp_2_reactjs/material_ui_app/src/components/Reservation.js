@@ -5,6 +5,7 @@ import Calendar from './Calendar.js';
 import SpacingGrid from './SpacingGrid.js';
 import ReactRotatingText from 'react-rotating-text';
 import { RotatingText } from 'rotating-text';
+import Modal from './Modal.js';
 // import shadows from '@mui/material/styles/shadows.js';
 
 
@@ -21,18 +22,19 @@ function Reservation() {
       stagger={0.1}
         timing={0.5}>
           </RotatingText>
-          <Divider className='reservation-divider'>
-          </Divider>
         <ReactRotatingText className='reactRotatingText'
           items=
             {[' Choose your ', 'Date', 'and Slot']} />
-          </Container>
+        </Container>
+        <Container>
+          {/* <Modal/> */}
+        </Container>
           <Container>
-          <Calendar />
-          <Divider>
-          </Divider>
+            <Calendar />
+            <Divider>
+            </Divider>
               <SpacingGrid/>
-          </Container>
+            </Container>
     </Box>
   )
 }

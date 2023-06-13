@@ -1,10 +1,10 @@
 import React from 'react';
-import { useMemo } from 'react';
+// import { useMemo } from 'react';
 import { Box, Typography, Container, Divider } from '@mui/material';
 import { RotatingText } from 'rotating-text';
-import { Loader } from "@googlemaps/js-api-loader";
+// import { Loader } from "@googlemaps/js-api-loader";
 import { GoogleMap, useLoadScript, useJsApiLoader, Marker } from "@react-google-maps/api";
-import { alignProperty } from '@mui/material/styles/cssUtils';
+// import { alignProperty } from '@mui/material/styles/cssUtils';
 
 export default function Contact() {
 
@@ -27,7 +27,6 @@ export default function Contact() {
             timing={0.5}>
           </RotatingText>
           <Divider className='contact-divider'>
-
           </Divider>
         </Box>
         <Container>
@@ -38,19 +37,19 @@ export default function Contact() {
             <Marker position={{ lat: 8.49746, lng: 124.62414 }}/>
           </GoogleMap>
         </Container>
-        <Box>
-          <Container>
-        <Typography style={{ fontSize: '20px', fontFamily: 'Roboto', fontWeight: 'bold', letterSpacing: '2px', marginTop: '20px'}}>
+        <Typography style={{ fontSize: '20px', fontFamily: 'Roboto', fontWeight: 'bold', letterSpacing: '2px', marginTop: '50px', justifyContent: 'center', alignContent: 'center'}}>
           If you have question and concerns please contact our main office
           </Typography>
-          <Typography style={{ fontSize: '20px', fontFamily: 'Roboto', fontWeight: 'bold', letterSpacing: '2px', marginTop: '20px'}}>
+          <Typography style={{ fontSize: '20px', fontFamily: 'Roboto', fontWeight: 'bold', letterSpacing: '2px', marginTop: '15px', justifyContent: 'center', alignContent: 'center'}}>
           Main Branch: Zone 8 extension, Patag, Cagayan de Oro City
           </Typography>
-          <Typography style={{ fontSize: '20px', fontFamily: 'Roboto', fontWeight: 'bold', letterSpacing: '2px', marginTop: '20px', }}>
-          Or reach us at reservaph@gmail.com or call 09068461463
+          <Typography style={{ fontSize: '20px', fontFamily: 'Roboto', fontWeight: 'bold', letterSpacing: '2px', marginTop: '15px', justifyContent: 'center', alignContent: 'center'}}>
+          reach us at reservaph@gmail.com or call 09068461463
             </Typography>
-            </Container>
-        </Box>
+            <Divider></Divider>
+            <Typography style={{ fontSize: '20px', fontFamily: 'Roboto', fontWeight: 'bold', letterSpacing: '2px', marginTop: '15px', justifyContent: 'center', alignContent: 'center'}}>
+          reach us thru our social media sites
+            </Typography>
       </Box>
     );
   }

@@ -1,6 +1,5 @@
-.navBartext{
+.MuiBox-root {
   font-family: Roboto !important;
-
 }
 
 .rotating-text {
@@ -85,6 +84,21 @@
     margin-top: -46px !important;
 
 }
+
+.register-section {
+  display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 130vh !important;
+    background-color: #673AB7; /* Deep purple background color */
+    background-image: linear-gradient(to bottom, #673AB7, goldenrod); /* Light gradient from deep purple to white */
+    background-size: cover !important;
+    margin-top: -46px !important;
+
+}
+
 .divider-section {
     display: flex !important;
     background-color: goldenrod !important;
@@ -105,7 +119,6 @@
     margin-bottom: 50px !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 100% !important;
 
 }
 
@@ -187,4 +200,21 @@
   align-items: center !important;
   justify-content: center !important;
   flex-direction: row !important;
+}
+
+.modalFormBox {
+  display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+
+}
+.modalFormBox1 {
+  display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+
 }

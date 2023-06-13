@@ -17,6 +17,7 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
 
+const style = { fontFamily: 'Roboto', fontSize: '20px' }
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact', 'Reservation', 'Register', 'Login',];
 
@@ -30,7 +31,7 @@ function NavBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" className='navBartext' sx={{ my: 2 }}>
       RESERVA® Mobile
       </Typography>
       <Divider />
@@ -38,7 +39,7 @@ function NavBar(props) {
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText className='navBartext' primary={<Link to={`/${item}`}>{item}</Link>} />
+              <ListItemText primary={<Link to={`/${item}`}>{item}</Link>} />
             </ListItemButton>
           </ListItem>
         ))}
