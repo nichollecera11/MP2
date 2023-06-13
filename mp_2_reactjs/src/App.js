@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
-import './App.css';
-import About from './mini_project_2/About';
-import Form from './mini_project_2/Form';
-import Reservation from './mini_project_2/Reservation';
+import "./App.css";
+import About from "./mini_project_2/About";
+import Form from "./mini_project_2/Form";
+import Reservation from "./mini_project_2/Reservation";
+import TableApp from "./components/TableApp";
 
 function App() {
   return (
@@ -22,11 +23,11 @@ function App() {
         </a>
       </header>
       <About />
-      <Reservation/>
-      <Form/>
+      <TableApp />
+      <Reservation />
+      <Form />
     </div>
   );
 }
-
 
 export default App;
