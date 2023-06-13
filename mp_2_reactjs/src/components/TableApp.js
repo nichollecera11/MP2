@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import "./tableIndex/table.css";
-import { Table } from "./components/Table";
-import { Modal } from "./components/Modal";
+import "./TableApp.css";
+import { Table } from "./tablecomponents/Table";
+import { Modal } from "./tablecomponents/Modal";
 
-function tableSlots(props) {
+export default function TableApp() {
   const [modalOpen, setModalOpen] = useState(false);
   const [rows, setRows] = useState([
     {
@@ -57,4 +57,4 @@ function tableSlots(props) {
   );
 }
 
-export default App;
+// export default tableApp;
